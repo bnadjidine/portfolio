@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/citi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/numericom/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/transition-4.0/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/mobilaveneue/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/dashboardappro/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/findbacklinck/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/scrum/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/communication/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/go/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/golang/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/php/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/set_analysis/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/sql/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/themes/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/vba/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/template/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/static-site-generator/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/autonomie/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/html-css/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/project_management/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/r_and_d/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/post/transverse/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/communication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/css/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/gestion-de-projet/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/html/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/js/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/projets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://192.168.0.6:1313/tags/transverse/</loc>
+  </url>
+  
+</urlset>

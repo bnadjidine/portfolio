@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mon Portfolio</title>
+    <link>http://192.168.0.6:1313/</link>
+    <description>Recent content on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.6:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#39;ITI</title>
+      <link>http://192.168.0.6:1313/projets/citi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/citi/</guid>
+      <description>Le projet C&amp;rsquo;ITI est le premier projet de formation humaine que j&amp;rsquo;ai eu la chance de réaliser en tant que chef de projets lors de mon premier semestre à IN&amp;rsquo;TECH SUD (Septembre 2015 - Février 2020). En colllaboration avec le département « Environnement et développement durable » de la mairie d’Agen, nous étions chrargé de trouver des solutions pour améliorer le vivre ensemble de l&amp;rsquo;Agenais. Grâce à une communication ciblée sur les jeunes de 17 à 25 ans, C’iti a proposer à la ville d’Agen des idées et des actions concrètes afin de rendre la « ville du pruneau » plus propre et plus agréable à vivre.</description>
+    </item>
+    
+    <item>
+      <title>NUMERI&#39;COM</title>
+      <link>http://192.168.0.6:1313/projets/numericom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/numericom/</guid>
+      <description>Le projet Un projet de formation humaine réaliser entre septembre 2016 et février 2017 dans le cadre de ma formation à IN&amp;rsquo;TECH SUD avec 3 autres camarades de classe. La coorganisation du 4ème édition du NUMERIC’DAY, l&amp;rsquo;évènement de la région destinée aux professionnel du numéque à était proposée par eTIC47, et la CCI du Lot-et-Garronne .
+Contexte eTIC47 structure, organise et promeut la filière numérique du Lot-et-Garonne. Le NUMERIC’DAY est l’occasion de découvrir toutes les compétences numériques disponible localement, d’assister à des conférences sur des sujets sensibles et de partager un moment de convivialité autour du numérique.</description>
+    </item>
+    
+    <item>
+      <title>Transition 4.0</title>
+      <link>http://192.168.0.6:1313/projets/transition-4.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/transition-4.0/</guid>
+      <description>Zabbix &amp;amp; ProcessMaker</description>
+    </item>
+    
+    <item>
+      <title>Mobbil&#39;Avenue</title>
+      <link>http://192.168.0.6:1313/projets/mobilaveneue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/mobilaveneue/</guid>
+      <description>Zabbix &amp;amp; ProcessMaker</description>
+    </item>
+    
+    <item>
+      <title>Dashboard Appros</title>
+      <link>http://192.168.0.6:1313/projets/dashboardappro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/dashboardappro/</guid>
+      <description>Dashboard Appro</description>
+    </item>
+    
+    <item>
+      <title>Recherche de back linck</title>
+      <link>http://192.168.0.6:1313/projets/findbacklinck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/findbacklinck/</guid>
+      <description>back linck seo</description>
+    </item>
+    
+    <item>
+      <title>Agile SCRUM</title>
+      <link>http://192.168.0.6:1313/post/scrum/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/scrum/</guid>
+      <description>Agile SCRUM</description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>http://192.168.0.6:1313/post/communication/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/communication/</guid>
+      <description>QV</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://192.168.0.6:1313/post/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>http://192.168.0.6:1313/post/php/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/php/</guid>
+      <description>PHP</description>
+    </item>
+    
+    <item>
+      <title>Set Analysis QV</title>
+      <link>http://192.168.0.6:1313/post/set_analysis/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/set_analysis/</guid>
+      <description>QV</description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>http://192.168.0.6:1313/post/sql/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/sql/</guid>
+      <description>SQL</description>
+    </item>
+    
+    <item>
+      <title>VBA</title>
+      <link>http://192.168.0.6:1313/post/vba/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/vba/</guid>
+      <description>VBA</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>http://192.168.0.6:1313/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>http://192.168.0.6:1313/post/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate from Jekyll</title>
+      <link>http://192.168.0.6:1313/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://192.168.0.6:1313/post/autonomie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/autonomie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://192.168.0.6:1313/post/html-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/html-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://192.168.0.6:1313/post/project_management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/project_management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://192.168.0.6:1313/post/r_and_d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/r_and_d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://192.168.0.6:1313/post/transverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/post/transverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://192.168.0.6:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/about/</guid>
+      <description>Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.</description>
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>http://192.168.0.6:1313/projets/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/test/</guid>
+      <description>Zabbix &amp;amp; ProcessMaker</description>
+    </item>
+    
+  </channel>
+</rss>

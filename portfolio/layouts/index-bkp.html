@@ -1,0 +1,516 @@
+{{ partial "header" . }}
+
+<main>
+    <!-- div class="intro">
+        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
+        <h1>{{ .Site.Title }}</h1>
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        
+        {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
+    </div -->
+    
+</main >
+
+<div class="container">
+    <div class="row myprofile">
+        <div class="col-md-3">
+            <div class="profile-img">
+                <img src="{{ $.Site.BaseURL }}images/moi.jpg" class="img-responsive" alt="Moi">
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="name-wrapper">
+                <h1>Nadjidine BOINALI</h1>
+                <h2 class="title_nb">Expert en ingénierie logiciel </h2>
+            </div>
+
+            <p>
+                La capacité à créer des produits innovants est la raison principale pour laquelle j'ai choisi l'informatique.
+                Cela m'aide aussi à avoir la liberté d'être créatif, 
+                et de travailler avec des gens formidables de tous bords.
+
+                Ces 5 dernieres années à <a href="https://www.intechinfo.fr/" target="_blank">INT'ECTH SUD </a>, 
+                m'ont permis de m'affirmer d'avantage et conforté dans le choix de mon futur métier.
+                
+            </p>
+            <p>
+                Pour atteindre mes ambitions (chef de projet B.I.), il m'est important d'avoir une vue globale sur chaque service/métier de l'entreprise.
+                Pleinement comblé dans le choix de mon altenance, en tant que dévéloppeur BI et Data Analyst, auprès de 
+                <a href="https://bmscircuits.com/" target="_blank">BMS CIRCUITS</a> 
+                je reste confiant quant à la réalisation de mes ambitions. 
+            </p>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <strong>CYCLISME, FITNESS</strong>
+                        <small>HOBBIES</small>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <strong>FRANCAISES</strong>
+                        <small>NATIONNALITÉ</small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="personal-details">
+                        <strong>FRANCAIS <span>(NATALE)</span>, ANGLAIS <span>(INTERMÉDIAIRE)</span></strong>
+                        <small>LANGUES</small>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+
+    <section class="section-wrapper specialities-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Spécialités</h2>
+                </div>
+                <div class="col-md-9 specialities-box">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="specialities_item">
+                                <h3>Gestion de parc Linux</h3>
+                                <p>
+                                    S'assurer de la disponibilité des ressources informatiques, tout en appliquant la bonne stratégie réseaux 
+                                    afin d'aider les utilisateurs dans leurs tâches quotidiennes. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="specialities_item">
+                                <h3>Data Analyst</h3>
+                                <p>
+                                    Réunir un ensemble de données massives provenant de sources variées, afin de fournir des indicateurs
+                                    utiles aux différents services concerné.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="specialities_item">
+                                <h3>Gestion de projets</h3>
+                                <p>
+                                    Réaliser un projet de bout en bout, tout en impliquant les parties prenantes tout au long du processus,
+                                    pour une satisfaction garantie. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="specialities_item">
+                                <h3>R & D</h3>
+                                <p>
+                                    Des projets innovants et ambitieux dans des domaines bien différents.
+                                </p>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper skills-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Compétences</h2>
+
+                    <div class="progress-wrapper"> 
+                        <p>Légende</p>
+                        <div class="progress-item">
+                            <span class="progress-title">Niveau Actuel</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" style="width:100%">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="progress-item">
+                            <span class="progress-title">Projection sur 2 ans</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" style="width:100%">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="col-md-9">
+                    <div class="col-md-6 competences-comparison">
+                        <div class="progress-wrapper"> 
+                            <h3>Divers Programation</h3>
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/html-css"><span class="progress-title">HTML5/CSS3 </span></a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:5%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/php"><span class="progress-title">PHP </span></a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:60%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/vba"> <span class="progress-title">VBA </span> </a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <span class="progress-title">JavaScript </span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <span class="progress-title">Linux </span>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:40%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="progress-wrapper"> 
+                            <h3>Data Analyst</h3>
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/qlik"> <span class="progress-title">Set Analysis </span> </a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:75%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:21%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/sql"> <span class="progress-title">SQL </span> </a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:65%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:30%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <a href="{{ $.Site.BaseURL }}competences/python"> <span class="progress-title">Python </span> </a>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                                    </div>
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+                    </div>
+                    
+                        </div>
+                        
+                    </div>
+                                       
+                </div>
+            </div>
+        </div>
+      
+    </section>
+
+    <section class="section-wrapper work-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Mon  parcours</h2>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-6 parc1">
+                            <div class="content-item">
+                                <small>
+                                    Mars 2019 - Mars 2021 (2 ans)
+                                </small>
+                                <h3>Développeur BI</h3>
+                                <h4>BMS CIRCUITS</h4>
+                                <p>Mouguerre, France</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 parc2">
+                            <div class="content-item">
+                                <small>
+                                    Août 2018 - Février 2019 (6 mois)
+                                </small>
+                                <h3>Développeur test Q.A</h3>
+                                <h4>JECHANGE.FR</h4>
+                                <p>Estillac, France</p>
+                            </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 parc3">
+                            <div class="content-item">
+                                <small>
+                                    Aout 2017 - Septembre 2017 (2 mois)
+                                </small>
+                                <h3>Développeur Python</h3>
+                                <h4>GECKO-CONSEIL</h4>
+                                <p>Estillac, France</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 parc4">
+                            <div class="content-item">
+                                <small>
+                                    Septembre 2015 - Février 2021 (5 ans et 1/2)
+                                </small>
+                                <h3>Étudiant à IN'TECH SUD</h3>
+                                <h4>INTECH-SUD</h4>
+                                <p>Agen, France</p>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <h2 class="text-center realisation">
+           <strong> Mes Réalisations </strong>
+        </h2>
+        <div class="container">
+            <div class="row" id="recent-relaisation">
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/transition-4.0/">
+                            <img src="images/project/home_page/transition4-0-white.png" class="img-responsive card-img">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3><strong>Transition 4.0</strong></h3>
+                          <p>
+                              Le projet de transition 4.0 représente le socle pour la future industrie 4.0 à BMS CIRCUITS.
+                              Pour une automatisation complète des lignes de productions, il est impératif d'avoir une infrastructure
+                              informatique sophistiquée et adaptative.
+                          </p>
+                          <a href="{{ $.Site.BaseURL }}projets/transition-4.0/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/backlinks-seo/">
+                            <img src="images/project/home_page/backlink.png" class="img-responsive card-img">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3><strong>Backlinks SEO</strong></h3>
+                           <p>
+                              La visibilité est synonyme de succès pour l'ensemble des métiers du web.
+                              Le projet Backlinks SEO met en avant une technologie puissante et innovante parcourant le web
+                              pour chercher de potentiels partenaire.
+                            </p>
+                          <a href="{{ $.Site.BaseURL }}projets/backlinks-seo/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/numericom/">
+                            <img src="images/project/home_page/numericom.PNG" class="img-responsive card-img" id="img-numericom">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                          <h3><strong>Numéri'com</strong></h3>
+                          <p>
+                              Un projet de formation humaine réalisé dans le cadre de ma formation à IN'TECH SUD.
+                              Celui-ci met en valeur des techniques de communications et de publipostage pour attirer un maximum d'exposants
+                              et visiteurs, dans le premier événement numérique de la région.  
+                            </p>
+
+                          <a href="{{ $.Site.BaseURL }}projets/numericom/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/citi/">
+                            <img src="images/project/home_page/Citi.png" class="img-responsive card-img">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3><strong>C'ITI</strong> </h3>
+                          <p>
+                              En collaboration avec la mairie d'Agen, ce projet de formation humaine avait comme but de chercher des solutions
+                              sur le savoir vivre ensemble dans l'Agenais, notament dans le milieu du monde de la nuit. 
+                          </p>
+                          <a href="{{ $.Site.BaseURL }}projets/citi/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/mobilavenue/">
+                            <img src="images/project/mobilavenue/mobilavenue.png" class="img-responsive card-img">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3><strong>Mobil'Avenue</strong></h3>
+                          <p>
+                              C'est une réalisation de projet informatique dans le cadre de mes études à IN'TECH SUD.
+                              Différentes techniques du web ont étés exploitées pour mettre en place un site vitrine du même nom <a href="http://www.mobilavenue.fr/" target="_blank">mobilavenue.fr</a>. 
+                            </p>
+                          <a href="{{ $.Site.BaseURL }}projets/mobilaveneue/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-4 card-container">
+                    
+                    <div class="card card-project">
+                        <div class="card-img">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-10 col-md-10">
+                          <a href="{{ $.Site.BaseURL }}projets/dashboardappro/">
+                            <img src="images/project/home_page/dashboard.png" class="img-responsive card-img">
+                          </a>
+                            </div>
+                          <div class="col-lg-1 col-md-1"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3><strong> Dashboard Appros</strong></h3>
+                          <p>
+                              L'application Dashboard Appros est une application BI(Business Intelligence) qui met en œuvre des techniques
+                              de Big Data afin de fournir l'informations la plus fine et la plus juste possible aux différents services Supply Chain 
+                              de BMS CIRCUITS.
+                            </p>
+                          <a href="{{ $.Site.BaseURL }}projets/dashboardappro/" class="brk-btn pull-right">
+                            Lire la suite <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span>
+                          </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="text-center more-about"><strong> En savoir plus sur moi</strong></h2>
+            <div class="row">
+                <p class="text-center">
+                    N'hésitez pas à consulter la liste de tous mes projets afin d'apprendre d'avantage de choses sur moi.
+                </p>
+
+                <div class="text-center">
+                    <a class="button btn-more" href="{{ $.Site.BaseURL }}projets/">
+                        Mes Réalisations
+                    </a>
+
+                    <a class="button btn-more" href="{{ $.Site.BaseURL }}competences">
+                        Mes Compétences
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+{{ partial "footer" . }}

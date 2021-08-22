@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mon Portfolio</title>
+    <link>http://192.168.0.6:1313/tags/</link>
+    <description>Recent content in Tags on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.6:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go</title>
+      <link>http://192.168.0.6:1313/tags/go/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>http://192.168.0.6:1313/tags/golang/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://192.168.0.6:1313/tags/hugo/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>http://192.168.0.6:1313/tags/themes/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>http://192.168.0.6:1313/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>http://192.168.0.6:1313/tags/template/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>http://192.168.0.6:1313/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-site-generator</title>
+      <link>http://192.168.0.6:1313/tags/static-site-generator/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>communication</title>
+      <link>http://192.168.0.6:1313/tags/communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>http://192.168.0.6:1313/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gestion de projet</title>
+      <link>http://192.168.0.6:1313/tags/gestion-de-projet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/gestion-de-projet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>http://192.168.0.6:1313/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>http://192.168.0.6:1313/tags/js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transverse</title>
+      <link>http://192.168.0.6:1313/tags/transverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/tags/transverse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>communication on Mon Portfolio</title>
+    <link>http://192.168.0.6:1313/tags/communication/</link>
+    <description>Recent content in communication on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="http://192.168.0.6:1313/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#39;ITI</title>
+      <link>http://192.168.0.6:1313/projets/citi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/citi/</guid>
+      <description>Le projet C&amp;rsquo;ITI est le premier projet de formation humaine que j&amp;rsquo;ai eu la chance de réaliser en tant que chef de projets lors de mon premier semestre à IN&amp;rsquo;TECH SUD (Septembre 2015 - Février 2020). En colllaboration avec le département « Environnement et développement durable » de la mairie d’Agen, nous étions chrargé de trouver des solutions pour améliorer le vivre ensemble de l&amp;rsquo;Agenais. Grâce à une communication ciblée sur les jeunes de 17 à 25 ans, C’iti a proposer à la ville d’Agen des idées et des actions concrètes afin de rendre la « ville du pruneau » plus propre et plus agréable à vivre.</description>
+    </item>
+    
+    <item>
+      <title>NUMERI&#39;COM</title>
+      <link>http://192.168.0.6:1313/projets/numericom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/numericom/</guid>
+      <description>Le projet Un projet de formation humaine réaliser entre septembre 2016 et février 2017 dans le cadre de ma formation à IN&amp;rsquo;TECH SUD avec 3 autres camarades de classe. La coorganisation du 4ème édition du NUMERIC’DAY, l&amp;rsquo;évènement de la région destinée aux professionnel du numéque à était proposée par eTIC47, et la CCI du Lot-et-Garronne .
+Contexte eTIC47 structure, organise et promeut la filière numérique du Lot-et-Garonne. Le NUMERIC’DAY est l’occasion de découvrir toutes les compétences numériques disponible localement, d’assister à des conférences sur des sujets sensibles et de partager un moment de convivialité autour du numérique.</description>
+    </item>
+    
+    <item>
+      <title>Transition 4.0</title>
+      <link>http://192.168.0.6:1313/projets/transition-4.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/transition-4.0/</guid>
+      <description>Zabbix &amp;amp; ProcessMaker</description>
+    </item>
+    
+    <item>
+      <title>Mobbil&#39;Avenue</title>
+      <link>http://192.168.0.6:1313/projets/mobilaveneue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/mobilaveneue/</guid>
+      <description>Zabbix &amp;amp; ProcessMaker</description>
+    </item>
+    
+    <item>
+      <title>Dashboard Appros</title>
+      <link>http://192.168.0.6:1313/projets/dashboardappro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/dashboardappro/</guid>
+      <description>Dashboard Appro</description>
+    </item>
+    
+    <item>
+      <title>Recherche de back linck</title>
+      <link>http://192.168.0.6:1313/projets/findbacklinck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.6:1313/projets/findbacklinck/</guid>
+      <description>back linck seo</description>
+    </item>
+    
+  </channel>
+</rss>
