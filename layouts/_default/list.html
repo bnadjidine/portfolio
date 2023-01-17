@@ -27,7 +27,7 @@
                         </li>
                         
                         <li class="list-group-item">
-                          <a  href="{{ $.Site.BaseURL }}projets/findbacklinck/">Backlink SEO</a>
+                          <a  href="{{ $.Site.BaseURL }}projets/backlinks-seo/">Backlink SEO</a>
                         </li>
                         
                         <li class="list-group-item">
@@ -62,6 +62,10 @@
                         <li class="list-group-item">
                             <a  href="{{ $.Site.BaseURL }}competences/communication/">Communication</a>
                         </li>
+
+                        <li class="list-group-item">
+                            <a  href="{{ $.Site.BaseURL }}competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
                         
                         <li class="list-group-item">
                             <a  href="{{ $.Site.BaseURL }}competences/html-css/">HTML5/CSS3</a>
@@ -72,11 +76,15 @@
                         </li>
                         
                         <li class="list-group-item">
-                            <a  href="{{ $.Site.BaseURL }}competences/r_and_d/">R & D</a>
+                            <a  href="{{ $.Site.BaseURL }}competences/python/">Pyhton</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="{{ $.Site.BaseURL }}competences/r-and-d/">Recherche & Développement</a>
                         </li>
                         
                         <li class="list-group-item">
-                            <a  href="{{ $.Site.BaseURL }}competences/qlike/">Qlike Set Analysis</a>
+                            <a  href="{{ $.Site.BaseURL }}competences/qlik/">Qlik</a>
                         </li>
 
                         <li class="list-group-item">
@@ -102,6 +110,61 @@
 				    <h1>{{ .Title }}</h1>
 
 				    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+
+                    {{ $paginator := .Paginator }}
+
+            <!-- If there's more than one page. -->
+            {{ if gt $paginator.TotalPages 1 }}
+
+            <ul class="pagination">
+                
+                <!-- First page. -->
+                {{ if ne $paginator.PageNumber 1 }}
+                <li class="pagination__item pagination__item--first">
+                <a class="pagination__link pagination__link--first" href="{{ $paginator.First.URL }}">
+                    «« Début
+                </a>
+                </li>
+                {{ end }}
+
+                <!-- Previous page. -->
+                {{ if $paginator.HasPrev }}
+                <li class="pagination__item pagination__item--previous">
+                <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+                    « Précedent
+                </a>
+                </li>
+                {{ end }}
+            
+                <!-- Page numbers. -->
+                {{ range $paginator.Pagers }}
+                <li class="pagination__item{{ if eq . $paginator }} pagination__item--current{{ end }}">
+                <a href="{{ .URL }}" class="pagination__link">
+                    {{ .PageNumber }}
+                </a>
+                </li>
+                {{ end }}
+
+                <!-- Next page. -->
+                {{ if $paginator.HasNext }}
+                <li class="pagination__item pagination__item--next">
+                <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+                   Suivant »
+                </a>
+                </li>
+                {{ end }}
+
+                <!-- Last page. -->
+                {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+                <li class="pagination__item pagination__item--last">
+                <a class="pagination__link pagination__link--last" href="{{ $paginator.Last.URL }}">
+                   Fin »»
+                </a>
+                </li>
+                {{ end }}
+
+            </ul><!-- .pagination -->
+            {{ end }}
 
 				</main>
 

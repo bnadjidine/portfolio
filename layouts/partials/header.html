@@ -47,7 +47,7 @@
                     {{ if .Site.Menus.main }}
                         <ul class="nav navbar-nav">
                             {{ range sort .Site.Menus.main }}
-                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                <li><a class="header__link" href="{{ .URL }}">{{ .Name }}</a></li>
                             {{ end }}
                         </ul>
                     {{ end }}

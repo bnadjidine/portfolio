@@ -1,0 +1,43 @@
+.Home-quotes{
+    color: #292938;
+    min-height: 400px;
+    width: 100%;
+    
+/*url(http://www.indesciences.com/wp-content/uploads/2015/10/imageàlaune.png)*/
+    background: url(../images/illustration/andrew_mcafee_4.png) ; 
+    background-position: right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-color: #8D99AD;
+
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.Home-TXT-QUOTE{
+    min-height: 200px;
+    font-size: 40px;
+    /*max-width: 50%;*/
+    /* margin-top: 50px; */
+    /*margin-left: 30px;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#Home-TXT-CITE > a{
+    color: #ebebeb;
+    
+}
+#book_AT{
+    margin-right: 50px;
+}

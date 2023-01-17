@@ -12,8 +12,9 @@ googleAnalytics = ""
     githubUsername = "#"
     accent = "#A91818"
     showBorder = true
-    backgroundColor = "#F0EEEB"
-    font = "Raleway" # should match the name on Google Fonts!
+    backgroundColor = "#EBEBEB"
+    #bgbkp #F0EEEB
+    font = "Roboto" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
@@ -52,7 +53,7 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:n.boinali@intech-sud.fr"
+    url = "mailto:b.nadjidine@gmail.com"
     name = "envelope-o"
     weight = 1
 
