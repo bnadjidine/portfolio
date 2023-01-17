@@ -6,6 +6,8 @@ title = "Mon Portfolio"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
+enableRobotsTXT = false
+
 [params]
     author = "Nadjidine BOINALI"
     description = "Portfolio S10 IL Janvier 2021 conçu avec Hugo"
