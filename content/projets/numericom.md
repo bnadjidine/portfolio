@@ -15,7 +15,7 @@ draft : false
 ## Le projet
 Un projet de formation humaine réalisé entre septembre 2016 et février 2017 dans le cadre de ma formation à IN'TECH SUD avec trois autres camarades de classe.
 La co-organisation de la quatrième édition du NUMERIC’DAY, l'événement de la région destinée aux professionnels du numérique, a été proposée par 
-<a href="https ://www.etic47.fr/" target="_blank">eTIC47</a> et la <a href="http ://www.cci47.fr/" target="_blank">CCI du Lot-et-Garronne</a>.
+<a href="https://www.etic47.fr/" target="_blank">eTIC47</a> et la <a href="http://www.cci47.fr/" target="_blank">CCI du Lot-et-Garronne</a>.
 
 
 ### Contexte
@@ -88,7 +88,7 @@ par l'équipe.
 L'événement étant bien préparé en amont, nous avons su palier à de nombreux manques de la part de nos partenaires et avions pu les aider
 lorsqu'ils avaient besoin de nous.
 
-Ayant eu la chance de rencontrer et assister à une conférence de <a href="https ://www.haas-avocats.com/" target="_blank">Maître HAAS</a> et d'avoir été parmi les premiers à être informé de la mise en place de <a href="https ://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank"> RGPD </a> (Règlement Général sur la Protection des Données) est un évènement marquant.
+Ayant eu la chance de rencontrer et assister à une conférence de <a href="https://www.haas-avocats.com/" target="_blank">Maître HAAS</a> et d'avoir été parmi les premiers à être informé de la mise en place de <a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank"> RGPD </a> (Règlement Général sur la Protection des Données) est un évènement marquant.
 
 
 Entre l'exposition, l'aide à l'accueil des visiteurs et enquête de satisfaction, nous avions eu une journée pleinement remplie.
@@ -139,9 +139,9 @@ La journée c’était bien déroulé, nous avions pu faire face à tous les imp
 
 Certains points restes à améliorer au niveau de l’organisation. Peut-être que nous aurions pu, soit travailler sur la communication et l’organisation du NUMERIC’DAY, soit communication et la mise en place d’une animation et non les deux à la fois qui représentaient un challenge considérable pour les quatre binômes que composaient l'équipe.
 
-Ce projet m'a permis de voir comment le monde de l'événementiel fonctionne et en même temps, il m'a permis d'améliorer mes compétences en communication acquissent au projet <a href="/projets/citi/"> C'ITI</a>.
+Ce projet m'a permis de voir comment le monde de l'événementiel fonctionne et en même temps, il m'a permis d'améliorer mes compétences en communication acquissent au projet <a href="{{ $.Site.BaseURL }}/projets/citi/"> C'ITI</a>.
 
-Grâce au salon, j'ai décroché un stage à <a href="https ://greenglade.fr/" target="_blank"> Greenglade Pau</a>, en tant que développeur PHP entre février et mars 2017.  
+Grâce au salon, j'ai décroché un stage à <a href="https://greenglade.fr/" target="_blank"> Greenglade Pau</a>, en tant que développeur PHP entre février et mars 2017.  
 
 
 

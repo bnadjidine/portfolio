@@ -13,7 +13,7 @@ draft : false
 
 
 ## Le projet
-Dashboard Apppro est le nom d'un projet BI (Business Intelligence) réaliser à <a href="https ://bmscircuits.com/" targetv="_blank">BMS CIRCUITS</a>, filiale du groupe <a href="http ://allcircuits.com/" target="_blank"> ALL CIRCUITS </a> lors de mes deux années d'alternance, pour l'obtention de mon titre d'expert en ingénierie logicielle à <a href="https ://www.intechinfo.fr/" target="_blank"> IN'TECH-SUD</a>.
+Dashboard Apppro est le nom d'un projet BI (Business Intelligence) réaliser à <a href="https://bmscircuits.com/" targetv="_blank">BMS CIRCUITS</a>, filiale du groupe <a href="http://allcircuits.com/" target="_blank"> ALL CIRCUITS </a> lors de mes deux années d'alternance, pour l'obtention de mon titre d'expert en ingénierie logicielle à <a href="https://www.intechinfo.fr/" target="_blank"> IN'TECH-SUD</a>.
 
 La business intelligence ou informatique décisionnelle présente un ensemble de techniques d'analyse de données massives et de présentation d'informations par des moyens de tableau de bord.
 
@@ -22,7 +22,7 @@ Le projet fait partie de la suite de projets Supply Chain (chaîne d'approvision
 Le projet m'a également offert une expérience à l'internationale
 
 ### Contexte
-Le groupe ALL CIRCUITS, l'un des leaders mondiaux de l'EMS (Fabricant de composants électroniques) souhaite consolider l'ensemble de données supply chain de ses filières, pour cela, il dispose d'une infrastructure big data assez importante. À ceci s'ajoute des applications modernes d'analyses de données et rapide tel que <a href="https ://powerbi.microsoft.com/" target="_blank">Microsoft Power BI</a> et <a href="https ://www.qlik.com/" target="_blank">QlikView </a>.
+Le groupe ALL CIRCUITS, l'un des leaders mondiaux de l'EMS (Fabricant de composants électroniques) souhaite consolider l'ensemble de données supply chain de ses filières, pour cela, il dispose d'une infrastructure big data assez importante. À ceci s'ajoute des applications modernes d'analyses de données et rapide tel que <a href="https://powerbi.microsoft.com/" target="_blank">Microsoft Power BI</a> et <a href="https://www.qlik.com/" target="_blank">QlikView </a>.
 
 Ces solutions de développement ont la particularité de pouvoir communiquer avec une multitude de bases de données et incorporent un moteur puissant pouvant traiter des millions de données en quelques secondes.
 Pour le développement de l'application, c'est QlikView qui a été retenu.
@@ -53,7 +53,7 @@ Pour réussir la mission, consolider les données et offrir un espace commun pou
 
 Avec ceci venait s'ajouter des missions d'administrations des principaux serveurs big data.
 
-(<small>Pour plus d'informations voir <a href="https ://b-nadji/projets/transition-4.0#migration-zabbix" target="_blank"> projet Transition 4.0</a></small>.)
+(<small>Pour plus d'informations voir <a href="https://b-nadji/projets/transition-4.0#migration-zabbix" target="_blank"> projet Transition 4.0</a></small>.)
 
 ### Ma contribution
 

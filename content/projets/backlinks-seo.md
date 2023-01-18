@@ -12,12 +12,12 @@ draft : false
 
 
 ## Le projet
-Le projet Backlinks SEO est un projet Recherche & Développement (Recherche et développement) réaliser lors de mon stage pour l'obtention de mon bachelor à <a href="https ://jechange.fr" target="_blank"> 
+Le projet Backlinks SEO est un projet Recherche & Développement (Recherche et développement) réaliser lors de mon stage pour l'obtention de mon bachelor à <a href="https://jechange.fr" target="_blank"> 
 Jechange.fr </a> entre août 2018 et février 2019.
 Jechange.fr est une scale-up française leader et pionnière dans le secteur de la gestion et l’optimisation des factures courantes,il 
 incorpore aussi un service gratuit d'aide au déménagement.
 
-Le projet s'inscrivait dans une démarche d'amélioration continue du référencement web du site <a href="https ://jechange.fr" target="_blank"> jechange.fr </a>, celui-ci a été réaliser avec <a href="https ://scrapy.org" target="_target"> Scrapy </a> et <a href="https ://github.com/puppeteer/puppeteer/" target="_target"> Puppeteer </a>.
+Le projet s'inscrivait dans une démarche d'amélioration continue du référencement web du site <a href="https://jechange.fr" target="_blank"> jechange.fr </a>, celui-ci a été réaliser avec <a href="https://scrapy.org" target="_target"> Scrapy </a> et <a href="https://github.com/puppeteer/puppeteer/" target="_target"> Puppeteer </a>.
 
 
 ### Contexte
