@@ -6,4 +6,5 @@ repo: ""
 tags: []
 weight: 0
 draft: false
+type: projets/
 ---
