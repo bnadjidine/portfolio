@@ -101,7 +101,7 @@ Le chantier était immense. Avec le recul, nous avions franchi les étapes néce
 
 L'hyper-convergence étant l'assurance d'avoir une architecture robuste et de qualité, l'entreprise était prête quant à la mise en place de l'usine 4.0.
 
-Pour ma part, l'utilisation de l'ensemble de ces technologies a mené à voir en avance des notions de mon programme scolaire, ce qui a eu pour conséquence une bonne préparation a des titres comme la certification <a href="{{ $.Site.BaseURL }}/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank"> CCNA Cybersecurity Operations </a>.
+Pour ma part, l'utilisation de l'ensemble de ces technologies a mené à voir en avance des notions de mon programme scolaire, ce qui a eu pour conséquence une bonne préparation a des titres comme la certification <a href="../../data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank"> CCNA Cybersecurity Operations </a>.
 
 Avec le recul, je suis fier d'avoir contribué à la mise en place des différents systèmes et la satisfaction reste indescriptible. Savoir sortir de sa zone de confort et se réinventer est l'une des qualités menant au succès, cela est vrai en informatique, mais aussi dans tout domaine.
 
