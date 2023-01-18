@@ -52,7 +52,7 @@
 
                     <!-- Bloc comp only-->
                     {{ $url := urls.Parse .Permalink }}
-                    {{ if hasPrefix $url.Path "/competences"}}
+                    {{ if strings.Contains $url "/competences"}}
                 
                     <h2><strong> Compétences</strong></h2>
                     <ul class="list-group">                             
