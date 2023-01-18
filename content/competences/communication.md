@@ -33,7 +33,7 @@ Durant mon alternance à <a href="https://bmscircuits.com/" target="_blank"> BMS
 
 Pour moi, une bonne communication permet de travailler dans de bonnes conditions, mais aussi de motiver et augmenter la productivité des équipes.
 
-La communication est ma compétence la plus utilisée, elle est présente sur l'ensemble de [mes projets]({{ $.Site.BaseURL }}/projets/).
+La communication est ma compétence la plus utilisée, elle est présente sur l'ensemble de [mes projets](/projets/).
 Que ce soit dans des présentations sur scène de fin de projets à IN'TECH SUD ou des présentations d'application pour une centaine de personnes en entreprise, la communication est la compétence qui m'a le plus fait évoluer.  
 
 [Dashboard Appros]({{ $.Site.BaseURL }}/projets/dashboardappro).
