@@ -8,7 +8,7 @@ title = "Mon Portfolio"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [params]
     author = "Nadjidine BOINALI"
