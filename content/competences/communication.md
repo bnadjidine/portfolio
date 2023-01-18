@@ -36,7 +36,7 @@ Pour moi, une bonne communication permet de travailler dans de bonnes conditions
 La communication est ma compétence la plus utilisée, elle est présente sur l'ensemble de [mes projets]({{< siteurl >}}projets/).
 Que ce soit dans des présentations sur scène de fin de projets à IN'TECH SUD ou des présentations d'application pour une centaine de personnes en entreprise, la communication est la compétence qui m'a le plus fait évoluer.  
 
-[Dashboard Appros]({{ $.Site.BaseURL }}/projets/dashboardappro).
+[Dashboard Appros]({{< siteurl >}}projets/dashboardappro).
 
 
 ## Regard Critique
