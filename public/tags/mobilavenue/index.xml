@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MOBIL&#39;AVENUE on Mon Portfolio</title>
+    <link>http://127.0.0.1/tags/mobilavenue/</link>
+    <description>Recent content in MOBIL&#39;AVENUE on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://127.0.0.1/tags/mobilavenue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Communication</title>
+      <link>http://127.0.0.1/competences/communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/communication/</guid>
+      <description>Ma Vision de la Communication La communication est l&#39;échange d&amp;rsquo;informations, d&amp;rsquo;idées ou de sentiments entre les individus ou les groupes. Elle permet de transmettre des informations, de résoudre des problèmes, de prendre des décisions et de construire des relations. Il existe différents types de communication, comme la communication verbale, non verbale, écrite et électronique. La communication efficace est importante pour le succès professionnel et personnel, car elle permet de comprendre les besoins et les perspectives des autres, de clarifier les attentes et de résoudre les conflits.</description>
+    </item>
+    
+    <item>
+      <title>Gestion de Projets</title>
+      <link>http://127.0.0.1/competences/gestion-de-projet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/gestion-de-projet/</guid>
+      <description>Ma Vision de la Gestion de Projets La gestion de projet regroupe l’ensemble des techniques, d’outils et de méthodes permettant de mener à bien un projet. Il n’existe pas qu’une seule manière de faire et le choix des différentes méthodes de gestion de projet dépend surtout du fonctionnement de chaque entreprise.
+La gestion de projet est la application de méthodes, de compétences, d&amp;rsquo;outils et de techniques pour atteindre les objectifs d&amp;rsquo;un projet spécifique.</description>
+    </item>
+    
+    <item>
+      <title>HTML5/CSS3</title>
+      <link>http://127.0.0.1/competences/html-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/html-css/</guid>
+      <description>Ma Vision du HTML et CSS Le HyperText Markup Language, généralement abrégé HTML est un langage de balisage souvent couplé avec du CSS (Cascading Style Sheets) pour générer des pages web.
+ le HTML pour structurer les pages web ; le CSS pour les mettre en forme.  Le web étant la plus grosse source d&amp;rsquo;informations dans le monde, il est important d&amp;rsquo;avoir des bases solides sur ces deux technologies, surtout si on aspire à être chef de projet I.</description>
+    </item>
+    
+  </channel>
+</rss>

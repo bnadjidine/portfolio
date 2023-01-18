@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Technologies Qlik</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Technologies Qlik</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>Technologies Qlik</h1>
+                        <h5>Qlik est une société produisant les solutions BI (Business Intelligence) que sont Qlik Sense et QlikView.</h5>
+                        
+<a href="http://127.0.0.1/tags/dashboard-appros"><kbd class="item-tag">DASHBOARD APPROS</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-des-technologies-qlik">Ma Vision des Technologies Qlik</h2>
+<p><a href="https://www.qlik.com/fr-fr/" target="_blank"> Qlik </a> est une société produisant les solutions BI (Business Intelligence) que sont Qlik Sense et QlikView.</p>
+<p>Ces deux solutions incorporent un moteur d&rsquo;analyse de données puissant capable de traiter des millions de lignes de données en quelques secondes. Ils sont basés sur un moteur de données associatif qui permet aux utilisateurs de créer des visualisations interactives et de naviguer facilement dans les données pour découvrir des insights cachés</p>
+<p>Ils sont conçu pour aider les utilisateurs à explorer, analyser et visualiser les données de différentes sources de manière intuitive et interactive. Ils permettent de connecter des données provenant de différentes sources et de les combiner en un seul modèle de données logique, ce qui facilite la compréhension des données et la prise de décisions.</p>
+<p>Ils permettent également de créer des tableaux de bord et des rapports pour partager les insights découverts avec les utilisateurs d&rsquo;une entreprise. Ils offrent une grande flexibilité pour la création de visualisation et ils sont utilisés par de nombreux utilisateurs finaux, analystes et décideurs dans les entreprises pour améliorer leur prise de décisions.</p>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>Ils sont principalement utilisés dans les entreprises pour explorer, analyser et visualiser les données de différentes sources. Ils sont utilisés pour aider les utilisateurs à prendre des décisions informées en permettant une exploration interactive des données.</p>
+<p>Ils sont souvent utilisés pour créer des tableaux de bord pour partager les insights découverts avec les utilisateurs d&rsquo;une entreprise. Ils sont utilisés dans de nombreux domaines tels que la finance, la vente, la logistique, la production, la santé, la télécommunication, et d&rsquo;autres domaines.</p>
+<p>Ils permettent aux utilisateurs de créer des visualisations interactives pour explorer les données, de créer des tableaux de bord pour suivre les indicateurs clés de performance et de créer des rapports pour partager les insights découverts avec les utilisateurs de l&rsquo;entreprise. Ils sont souvent utilisés conjointement avec d&rsquo;autres outils de BI pour fournir une vue complète des données d&rsquo;une entreprise.</p>
+<p>Au début de mon alternance à <a href="" target="_blank">BMS CIRCUITS</a>, j&rsquo;ai pris connaissance de ces deux technologies, cependant pour le développement des applications BI, c&rsquo;est QlikView qui a été retenue.</p>
+<p>L&rsquo;application <a href="../../projets/dashboardappro">Dashboard Appros</a>  servant d&rsquo;outil de suivi et d&rsquo;analyse de commandes est entièrement codé avec ces différents langages.</p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il est important de noter que ce sont des outils puissants pour explorer et visualiser les données, mais ils peuvent être complexes à utiliser pour les utilisateurs non expérimentés.</p>
+<p>La compréhension et la pratique des fonctionnalités avancées des outils Qlik peuvent prendre du temps pour les utilisateurs débutants.</p>
+<p>De plus, il peut être coûteux pour les entreprises de déployer et de les maintenir, en particulier pour les petites entreprises qui n&rsquo;ont pas les ressources pour gérer un tel déploiement.</p>
+<p>Il est important de noter que pour obtenir les meilleurs résultats, il est nécessaire de disposer de données de qualité et de les préparer correctement avant de les charger dans QlikView et QlikSense pour éviter les erreurs et les incohérences dans les visualisations. Il est également important de disposer d&rsquo;une équipe capable de maintenir et de mettre à jour les modèles de données pour s&rsquo;adapter aux besoins changeants de l&rsquo;entreprise.</p>
+<p>Pour toute personne s&rsquo;intéressant à la BI, je recommande évidement ces deux technologies, qui restent parmi les meilleures et ont faits leurs preuves depuis de nombreuses années maintenant.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>QlikView et Qlik Sense sont des outils de Business Intelligence (BI) puissant qui permet aux utilisateurs de créer des visualisations interactives pour explorer les données, de créer des tableaux de bord pour suivre les indicateurs clés de performance et de créer des rapports pour partager les insights découverts avec les utilisateurs de l&rsquo;entreprise.</p>
+<p>Ils sont utilisés dans de nombreux domaines pour aider les utilisateurs à prendre des décisions informées. Cependant, il est important de noter qu&rsquo;ils peuvent être complexes à utiliser pour les utilisateurs non expérimentés, coûteux à déployer et maintenir pour les entreprises, et il nécessite des données de qualité pour obtenir les meilleurs résultats.</p>
+<p>Il est important de disposer d&rsquo;une équipe capable de maintenir et de mettre à jour les modèles de données pour s&rsquo;adapter aux besoins changeants de l&rsquo;entreprise. Il est donc important de considérer ces facteurs avant de les déployer pour répondre aux besoins d&rsquo;analyse et de visualisation de données de l&rsquo;entreprise.</p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/dashboard-appros"><kbd class="item-tag">DASHBOARD APPROS</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

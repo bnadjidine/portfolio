@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gestion de Projets</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Gestion de Projets</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>Gestion de Projets</h1>
+                        <h5>La gestion de projet regroupe l’ensemble des techniques, d’outils et de méthodes permettant de mener à bien un projet.</h5>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/citi"><kbd class="item-tag">CITI</kbd></a>
+
+<a href="http://127.0.0.1/tags/dashboard-appros"><kbd class="item-tag">DASHBOARD APPROS</kbd></a>
+
+<a href="http://127.0.0.1/tags/mobilavenue"><kbd class="item-tag">MOBIL&#39;AVENUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/numericom"><kbd class="item-tag">NUMERI&#39;COM</kbd></a>
+
+<a href="http://127.0.0.1/tags/transition-4.0"><kbd class="item-tag">TRANSITION 4.0</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-de-la-gestion-de-projets">Ma Vision de la Gestion de Projets</h2>
+<p>La gestion de projet regroupe l’ensemble des techniques, d’outils et de méthodes permettant de mener à bien un projet. Il n’existe pas qu’une seule manière de faire et le choix des différentes méthodes de gestion de projet dépend surtout du fonctionnement de chaque entreprise.</p>
+<p>La gestion de projet est la application de méthodes, de compétences, d&rsquo;outils et de techniques pour atteindre les objectifs d&rsquo;un projet spécifique. Elle est utilisée pour planifier, organiser et gérer les ressources (humaines, matérielles, financières) pour achever les tâches spécifiques et atteindre les objectifs fixés dans les déchéances et les limites de coûts.</p>
+<p>La gestion de projet est souvent utilisée pour mener à bien des projets complexes qui nécessitent la coordination de plusieurs tâches ou équipes. Les principales étapes de la gestion de projet incluent la planification, l&rsquo;exécution, le suivi et le contrôle, et la clôture. Il existe de nombreuses méthodes et normes pour la gestion de projet, comme le Cadre de Management de Projet (PMBOK) de l&rsquo;Association de Management de Projet (PMI) ou encore le processus Agile.</p>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>La gestion de projet est utilisée dans de nombreux contextes et industries pour mener à bien des projets complexes. Voici quelques exemples :</p>
+<ul>
+<li>
+<p>Construction : La gestion de projet est utilisée pour planifier, organiser et gérer la construction de bâtiments, de ponts, de routes, etc.</p>
+</li>
+<li>
+<p>Informatique : La gestion de projet est utilisée pour planifier, organiser et gérer le développement de logiciels, de sites web, de systèmes d&rsquo;information, etc.</p>
+</li>
+<li>
+<p>Finance : La gestion de projet est utilisée pour planifier, organiser et gérer les investissements, les fusions et les acquisitions, etc.</p>
+</li>
+<li>
+<p>Santé : La gestion de projet est utilisée pour planifier, organiser et gérer les études cliniques, les lancements de nouveaux médicaments, les campagnes de vaccination, etc.</p>
+</li>
+<li>
+<p>Énergie : La gestion de projet est utilisée pour planifier, organiser et gérer la construction et l&rsquo;exploitation des centrales électriques, des éoliennes, des panneaux solaires, etc.</p>
+</li>
+</ul>
+<p>En général, la gestion de projet est utilisée dans presque tous les domaines pour mener à bien des projets complexes qui nécessitent la coordination de plusieurs ressources.</p>
+<p>Dans le cadre de la conception d’une application, on est amené à utiliser les méthodes de gestion de projet.</p>
+<p>Pour des gestions de projet “traditionnel”, on peut utiliser le cycle en V. Celui-ci permet de diviser la conception de l&rsquo;application en plusieurs étapes : en premier lieu, on a  la conception qui va nous permettre de définir les besoins et la faisabilité du projet, ensuite, on a la réalisation où on va développer l’application et enfin, on a la validation qui clôture notre projet.</p>
+<p>Il existe également d’autres méthodes qui sont très connues en informatique, comme les méthodes agiles par exemple.</p>
+<p>Il m&rsquo;a été impossible de réaliser un projet quelconque sans mettre en place ou suivre une gestion de projets.</p>
+<p>Les projets <a href="../../projets/backlinks-seo">Backlinks SEO</a>, <a href="../../projets/transition-4.0">Transition-4.0</a>, et <a href="../../projets/dashboardappro">Dashboard Appros</a> ont été organisés en agile Scrum;</p>
+<p>Alors que les projets <a href="../../projets/citi">C&rsquo;iti</a>, <a href="../../projets/mobilavenue">Mobil&rsquo;Avenue</a> et <a href="../../projets/numericom">Numéri&rsquo;com</a> étaient organisés en projet traditionnel type waterfall (cycle en v).</p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il existe également des critiques de la gestion de projet.</p>
+<ul>
+<li>
+<p>Surcomplexité : Certaines méthodes de gestion de projet peuvent être très complexes et prendre beaucoup de temps à mettre en place, ce qui peut entraîner une perte de temps et de productivité.</p>
+</li>
+<li>
+<p>Manque de flexibilité : Certaines méthodes de gestion de projet peuvent être rigides et ne pas s&rsquo;adapter aux changements ou aux incohérences imprévues, ce qui peut causer des problèmes pour la réalisation du projet.</p>
+</li>
+<li>
+<p>Manque d&rsquo;engagement : Certaines méthodes de gestion de projet peuvent ne pas favoriser l&rsquo;engagement des employés et des parties prenantes, ce qui peut entraîner un manque de participation et de motivation.</p>
+</li>
+<li>
+<p>Dépendance aux outils : La surutilisation des outils de gestion de projet peut causer une dépendance aux outils, au lieu de se concentrer sur les compétences et les relations humaines.</p>
+</li>
+</ul>
+<p>Il est important de noter que ces critiques ne sont pas une généralité pour toutes les méthodes de gestion de projet, mais il est important pour les employeurs et les employés de rester conscients des défis potentiels et de chercher des solutions pour les surmonter pour assurer une gestion efficace et adaptée des projets.</p>
+<p>pour ma part, j&rsquo;ai énormément progréssé dans ce domaine, vu les différentes interactions que j&rsquo;ai tout au long de ma formation et stages.</p>
+<p>Contrairement à ce qu’on pourrait penser, la gestion de projet n’est pas un processus que l’on peut accomplir mécaniquement.</p>
+<p>Il ne suffit pas de connaître parfaitement toutes les méthodes pour mener à bien un projet. En effet, chaque projet possède un degré de difficulté différent et par conséquent, cela nous demande de l’inventivité, de l’imagination. 
+D’autant plus que, pour qu’un projet puisse être réalisé correctement, il faut que le chef de projet puisse connaître les spécificités de chacun de ses membres afin de réaliser le projet efficacement.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>En conclusion, la gestion de projet est un processus qui permet de planifier, organiser et gérer les ressources pour atteindre les objectifs fixés dans les délais et les limites de coûts. Il est utilisé dans de nombreux contextes et secteurs différents pour gérer les projets de manière efficace.</p>
+<p>Il existe de nombreuses méthodes et normes pour la gestion de projet, comme le PMBOK ou Agile, qui ont chacune leurs avantages et leurs limites. Il est important de choisir la méthode qui convient le mieux aux besoins et à la nature du projet. Il est également important de rester conscient des défis potentiels de la gestion de projet, tels que la surcomplexité, le manque de flexibilité, le manque d&rsquo;engagement et la dépendance aux outils, et de chercher des solutions pour les surmonter pour assurer une gestion efficace et adaptée des projets.</p>
+<p>En ce qui concerne les développements logiciels, Scrum est l&rsquo;une des méthodes qui convient le mieux, car celui-ci peut prendre en compte les innombrables changements qui peuvent subvenir au cours du projet.</p>
+<p>Je souhaite découvrir d&rsquo;autres méthodes dans l&rsquo;agilité comme L&rsquo;XP (eXtreme Programming).</p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/citi"><kbd class="item-tag">CITI</kbd></a>
+
+<a href="http://127.0.0.1/tags/dashboard-appros"><kbd class="item-tag">DASHBOARD APPROS</kbd></a>
+
+<a href="http://127.0.0.1/tags/mobilavenue"><kbd class="item-tag">MOBIL&#39;AVENUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/numericom"><kbd class="item-tag">NUMERI&#39;COM</kbd></a>
+
+<a href="http://127.0.0.1/tags/transition-4.0"><kbd class="item-tag">TRANSITION 4.0</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

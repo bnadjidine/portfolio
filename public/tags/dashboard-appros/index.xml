@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DASHBOARD APPROS on Mon Portfolio</title>
+    <link>http://127.0.0.1/tags/dashboard-appros/</link>
+    <description>Recent content in DASHBOARD APPROS on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://127.0.0.1/tags/dashboard-appros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autonomie Professionnelle</title>
+      <link>http://127.0.0.1/competences/autonomie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/autonomie/</guid>
+      <description>Ma Vision de L&amp;rsquo;Autonomie Professionnelle L&#39;autonomie professionnelle, souvent confondue avec l&amp;rsquo;indépendance professionnelle, représente la force d&amp;rsquo;une personne à pouvoir analyser un problème et apporté la solution adéquate. Quant à l&amp;rsquo;indépendance professionnelle, c&amp;rsquo;est le fait de ne pas avoir une autorité supérieure au-dessus de nous.
+L&amp;rsquo;autonomie professionnelle, c&amp;rsquo;est aussi le fait de savoir solliciter une aide (externe ou interne) quand on fait face à un problème dépassant de très loin notre niveau de compétence.</description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>http://127.0.0.1/competences/communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/communication/</guid>
+      <description>Ma Vision de la Communication La communication est l&#39;échange d&amp;rsquo;informations, d&amp;rsquo;idées ou de sentiments entre les individus ou les groupes. Elle permet de transmettre des informations, de résoudre des problèmes, de prendre des décisions et de construire des relations. Il existe différents types de communication, comme la communication verbale, non verbale, écrite et électronique. La communication efficace est importante pour le succès professionnel et personnel, car elle permet de comprendre les besoins et les perspectives des autres, de clarifier les attentes et de résoudre les conflits.</description>
+    </item>
+    
+    <item>
+      <title>Gestion de Projets</title>
+      <link>http://127.0.0.1/competences/gestion-de-projet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/gestion-de-projet/</guid>
+      <description>Ma Vision de la Gestion de Projets La gestion de projet regroupe l’ensemble des techniques, d’outils et de méthodes permettant de mener à bien un projet. Il n’existe pas qu’une seule manière de faire et le choix des différentes méthodes de gestion de projet dépend surtout du fonctionnement de chaque entreprise.
+La gestion de projet est la application de méthodes, de compétences, d&amp;rsquo;outils et de techniques pour atteindre les objectifs d&amp;rsquo;un projet spécifique.</description>
+    </item>
+    
+    <item>
+      <title>Technologies Qlik</title>
+      <link>http://127.0.0.1/competences/qlik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/competences/qlik/</guid>
+      <description>Ma Vision des Technologies Qlik Qlik  est une société produisant les solutions BI (Business Intelligence) que sont Qlik Sense et QlikView.
+Ces deux solutions incorporent un moteur d&amp;rsquo;analyse de données puissant capable de traiter des millions de lignes de données en quelques secondes. Ils sont basés sur un moteur de données associatif qui permet aux utilisateurs de créer des visualisations interactives et de naviguer facilement dans les données pour découvrir des insights cachés</description>
+    </item>
+    
+  </channel>
+</rss>

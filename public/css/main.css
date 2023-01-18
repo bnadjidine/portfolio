@@ -14,9 +14,44 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
     margin-bottom: 50px;
+}
+
+.nb-wall {
+    /* background-color: #3d3d3d; */
+    background-color: #292938;
+    color: #F0EEEB;
+    padding: 50px 50px;
+    width: 100%;
+    
+}
+
+.more-infos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-more-infos {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #EBEBEB;
+    color: #292938;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 10px;
+
+    border-radius: 25px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    
+}
+a.btn-more-infos {
+    color: #292938;
 }
 
 .toc-placement {
@@ -68,21 +103,14 @@ img {
 }
 /* Colored links */
 
-a:link{
+/* a:link{
     color: var(--accent);
-}
+} */
 
 a:visited {
     color: rgb(160 160 160);
 }
 
-.resume-footer > a:link{
-    color: rgb(160 160 160);
-}
-
-.resume-footer > a:visited{
-    color: var(--accent);
-}
 
 
 a.icon:hover {
@@ -123,7 +151,15 @@ p.copyright > a
 }
 
 .item-tag {
-    background-color: var(--accent);
+    background-color: var(--background-color);
+    border-color: #506072; 
+    border-style: solid;
+    border-width: 1px; 
+    color: #506072;
+}
+
+.navbar{
+    border: 0;
 }
 
 /* Navigation icons */
@@ -142,8 +178,10 @@ p.copyright > a
 
 /* Colores element text navbar*/
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #CCCCCC;
 }
+
+
 /*Colored footer lvl1*/
 .resume-footer{
     background-color: #535251;
@@ -209,6 +247,10 @@ hr{
     margin-bottom: 50px;
     min-height: 450px;
     /*box-shadow: 5px 10px black;*/
+}
+
+.card-container {
+    max-width: 350px;
 }
 
 .card.card-project {
@@ -360,10 +402,11 @@ a.smooth-scroll {
 .navigation-list > a{
     text-decoration: none;
 }
-
+/*
 .navigation-list li.active a {
     color: blue;
 }
+*/
 
 .btn-more:hover {
     background-color: rgb(83, 82, 81);
@@ -379,6 +422,11 @@ a.smooth-scroll {
     visibility: hidden;
 }
 
+/*Références*/
+.btns-ref > a.button.btn-more {
+    min-width: 200px;
+}
+
 footer {
     border-bottom: var(--border-width) solid var(--accent);
     background-color: #3d3d3d;    
@@ -386,6 +434,10 @@ footer {
 
 blockquote {
     border-left: 5px solid #333333;
+}
+
+.list-group-item{
+    background-color: var(--backgroundColor) !important;
 }
 
 /* TOC table of content */

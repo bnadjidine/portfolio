@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Python</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Python</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>Python</h1>
+                        <h5>Python est un langage de programmation interprété, de haut niveau et d&#39;usage général.</h5>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-du-python">Ma Vision du Python</h2>
+<p>Python est un langage de programmation open-source, multi-paradigme, populaire pour son utilisation en développement web, data science, intelligence artificielle, apprentissage automatique, analyse de données, et bien d&rsquo;autres domaines.</p>
+<p>Il a été créé par Guido van Rossum en 1991 et est maintenant développé et maintenu par une communauté de développeurs.</p>
+<p>Il est conçu pour être lisible et facile à apprendre, avec des structures de code claires et une syntaxe simple, ce qui en fait un excellent choix pour les débutants en programmation. Python offre également une grande variété de bibliothèques et de frameworks pour des tâches spécifiques, tels que les calculs scientifiques, l&rsquo;analyse de données, l&rsquo;apprentissage automatique et le développement web, ce qui en fait un outil polyvalent pour les développeurs professionnels.</p>
+<p>Quelques applications</p>
+<ul>
+<li>Mettre en place une Blockchain ;</li>
+<li>Récupérer du contenu sur des sites web ;</li>
+<li>Suivre et prédire en direct l'évolution de la bourse ;</li>
+<li>&hellip;etc.</li>
+</ul>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>Python est utilisé dans de nombreux contextes différents, notamment le développement web, la data science, l&rsquo;analyse de données, l&rsquo;apprentissage automatique, l&rsquo;intelligence artificielle, les calculs scientifiques, la robotique, la finance, la gestion de projet, et bien d&rsquo;autres domaines.</p>
+<p>Il est particulièrement populaire pour son utilisation dans le développement de scripts automatisés et de programmes de calcul, ainsi que pour sa compatibilité avec un grand nombre de bibliothèques et de frameworks spécialisés.</p>
+<p>Il est également utilisé pour développer des applications de bureau et des applications mobiles. Python est largement utilisé par les scientifiques, les ingénieurs, les data analysts, les développeurs web, les développeurs de jeux, les développeurs de logiciels et les développeurs de système pour automatiser les tâches et développer des applications plus efficacement.</p>
+<p>J&rsquo;ai toujours été passionné par les technologies prédictives, ainsi, j&rsquo;ai commencé l&rsquo;apprentissage de Python très tôt lors de ma deuxième année à IN&rsquo;TECH SUD.</p>
+<p>Cependant, c&rsquo;est bien plus tard que j&rsquo;ai eu la chance de mettre en application cette compétence lors d&rsquo;un stage en entreprise.</p>
+<p>Couplé avec Puppeteer, j&rsquo;ai mis en place l&rsquo;application <a href="../../projets/backlinks-seo">BacksLink SEO</a> une application parcourant le web, avec une liste de mots clés pour trouver de potentiels partenaires et augmenter sa visibilité.</p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il est important de noter que Python peut être lent pour certaines tâches, notamment les calculs intensifs en termes de performance, car il est interprété plutôt que compilé, ce qui peut rendre les programmes plus lents que des programmes écrits dans des langages compilés tels que C ou C++.</p>
+<p>Cependant, cela est compensé par sa facilité d&rsquo;utilisation, sa lisibilité et sa grande communauté de développeurs qui ont créé de nombreuses bibliothèques pour optimiser les performances pour des tâches spécifiques.</p>
+<p>Il est également important de noter que Python 2 est en fin de vie et ne reçoit plus de mise à jour de sécurité, il est donc important de migrer vers Python 3 pour bénéficier des dernières fonctionnalités et de la sécurité. Il est également important de tenir compte de la maintenance et de la scalabilité du code lors de l'écriture du code en Python.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Python est un langage de programmation populaire, open-source, multi-paradigme qui est utilisé dans de nombreux contextes différents, notamment le développement web, la data science, l&rsquo;analyse de données, l&rsquo;apprentissage automatique, l&rsquo;intelligence artificielle, les calculs scientifiques, la robotique, la finance, la gestion de projet, et bien d&rsquo;autres domaines. Il est connu pour sa facilité d&rsquo;utilisation, sa lisibilité et sa grande communauté de développeurs.</p>
+<p>Cependant, Il est important de tenir compte de la maintenance et de la scalabilité du code lors de l'écriture du code en Python. Il est donc important de considérer les besoins spécifiques de chaque projet avant de choisir un langage de programmation particulier.</p>
+<p>À titre personnel, Python est mon langage de programmation préféré.</p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Recherche et Développement</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Recherche et Développement</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>Recherche et Développement</h1>
+                        <h5>La R&amp;D représente l&#39;ensemble des moyens mis à disposition afin de concevoir nouvelles applications ou services innovante.</h5>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/transverse"><kbd class="item-tag">TRANSVERSE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-de-la-recherhe-et-développement-rd">Ma Vision de la Recherhe et Développement (R&amp;D)</h2>
+<p>La recherche et développement (R&amp;D) est l&rsquo;ensemble des activités visant à découvrir de nouvelles connaissances, à mettre au point de nouveaux produits, services, processus et méthodes de fabrication et à améliorer les produits, services et processus existants. Il comprend généralement la recherche fondamentale et la recherche appliquée.</p>
+<p>La recherche fondamentale vise à découvrir de nouvelles connaissances, tandis que la recherche appliquée vise à utiliser ces connaissances pour résoudre des problèmes pratiques ou pour développer de nouveaux produits ou services. Les activités de R&amp;D peuvent être menées par des entreprises, des universités, des instituts de recherche et des gouvernements.</p>
+<p>La compétitivité n&rsquo;a jamais été plus féroce qu'à l'ère du numérique, la R&amp;D représente l&rsquo;ensemble des moyens mis à disposition afin de concevoir de nouvelles applications ou services innovants.</p>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>La R&amp;D est utilisée dans de nombreux contextes différents, notamment dans les industries de la technologie, de la santé, de l&rsquo;aérospatiale, des médias et des sciences de la vie. Les entreprises utilisent généralement la R&amp;D pour développer de nouveaux produits et services, améliorer les produits et services existants, réduire les coûts de production, augmenter la productivité et rester compétitives sur le marché.</p>
+<p>Les universités et les instituts de recherche utilisent la R&amp;D pour produire des connaissances fondamentales et appliquées dans un large éventail de domaines, notamment les sciences, les mathématiques, les sciences sociales et les sciences de la vie. Les gouvernements peuvent utiliser la R&amp;D pour des initiatives nationales telles que l&rsquo;amélioration de la santé publique et la lutte contre les changements climatiques.</p>
+<p>J&rsquo;ai eu la chance de mettre à disposition cette compétence lors du projet <a href="../../projets/backlinks-seo">Backlinks SEO</a>, l&rsquo;un de mes premiers projets menés de A à Z en toute autonomie.</p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il est important de noter que la R&amp;D peut être coûteuse et prendre du temps pour produire des résultats concrets. Les entreprises peuvent investir des sommes importantes dans la R&amp;D sans être sûres de voir un retour sur investissement ou de réussir à commercialiser les résultats de la recherche.</p>
+<p>De plus, certaines entreprises peuvent être plus enclines à investir dans la R&amp;D pour des produits qui ont un potentiel de profit élevé, plutôt que pour des produits qui pourraient avoir un impact social et environnemental positif mais un potentiel de profit faible.</p>
+<p>Il est donc important de surveiller les activités de R&amp;D des entreprises et de s&rsquo;assurer qu&rsquo;elles sont utilisées de manière responsable et éthique. Il est également important de considérer la diversité et l&rsquo;inclusion dans les équipes de R&amp;D pour avoir une vision plus large des possibilités de recherche.</p>
+<p>Pour faire de la R&amp;D, il faut être autonome et force de propositions. Étant à l&rsquo;aise dans les deux, cela a été relativement facile pour moi, je n&rsquo;ai pas eu le sentiment qu&rsquo;il y avait un temps d&rsquo;adaptation quelconque.</p>
+<p>Loin du niveau d&rsquo;un chercheur, je trouve cependant cette compétence très plaisante.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>En conclusion, la Recherche et Développement (R&amp;D) est un ensemble d&rsquo;activités visant à découvrir de nouvelles connaissances, à mettre au point de nouveaux produits, services, processus et méthodes de fabrication et à améliorer les produits, services et processus existants. Elle est utilisée dans de nombreux contextes différents et est considérée comme un moyen pour les entreprises, les universités et les gouvernements pour innover et rester compétitifs.</p>
+<p>Cependant, il est important de noter que la R&amp;D peut être coûteuse et prendre du temps pour produire des résultats concrets, et il est donc important de surveiller les activités de R&amp;D pour s&rsquo;assurer qu&rsquo;elles sont utilisées de manière responsable et éthique. Il est également important de considérer la diversité et l&rsquo;inclusion dans les équipes de R&amp;D pour avoir une vision plus large des possibilités de recherche.</p>
+<p>Faire de la R&amp;D c&rsquo;est facile, mais l&rsquo;<a href="../autonomie">autonomie professionnelle</a> est l&rsquo;une des compétences les plus difficiles à appréhender, car avec celle-ci, il faut être capable de casser nos codes de tous les jours.</p>
+<p>On ne peut pas faire du Recherche &amp; Développement sans être autonome et créatif, voyez plutôt la R&amp;D comme une consécration.</p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/backlinks-seo"><kbd class="item-tag">BACKLINKS SEO</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/transverse"><kbd class="item-tag">TRANSVERSE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

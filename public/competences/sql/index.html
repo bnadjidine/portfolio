@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SQL</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">SQL</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>SQL</h1>
+                        <h5>Le SQL (Structured Query Language) est un langage utilisé pour communiquer avec une base de données.</h5>
+                        
+<a href="http://127.0.0.1/tags/transition-4.0"><kbd class="item-tag">TRANSITION 4.0</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-du-sql">Ma Vision du SQL</h2>
+<p>Le SQL (Structured Query Language) est un langage de programmation utilisé pour communiquer avec une base de données.</p>
+<p>Il permet aux utilisateurs de créer, lire, mettre à jour et supprimer des données dans les bases de données. SQL est utilisé pour gérer les bases de données relationnelles, qui sont des bases de données qui utilisent des tables pour stocker des données, avec des relations définies entre les tables.</p>
+<p>Il permet aux utilisateurs de sélectionner, insérer, mettre à jour et supprimer des données dans les tables, ainsi que de créer, modifier et supprimer des tables et d&rsquo;autres objets de la base de données. SQL est un standard de l&rsquo;industrie et est utilisé par de nombreux systèmes de gestion de bases de données populaires, tels que MySQL, SQL Server, Oracle, PostgreSQL, et SQLite.</p>
+<p>La maîtrise de ce langage est primordial afin de travailler sur des bases de données.</p>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>SQL est utilisé principalement pour gérer les bases de données relationnelles. Il est utilisé pour accéder, manipuler et gérer les données stockées dans les bases de données relationnelles. Il est utilisé pour effectuer des opérations CRUD (Create, Read, Update, Delete) sur les données stockées dans les tables de la base de données.</p>
+<p>SQL est utilisé pour réaliser des tâches telles que la création de tables, la modification de la structure des tables, la gestion des contraintes d&rsquo;intégrité, la création de vues, la gestion des utilisateurs et des autorisations, et bien d&rsquo;autres tâches liées à la gestion des bases de données. SQL est utilisé dans de nombreux domaines tels que les entreprises, les gouvernements, les organisations à but non lucratif, les universités, les établissements de santé, les médias, et bien d&rsquo;autres domaines pour gérer les données de différentes sources et les rendre accessibles pour les utilisateurs, les analystes et les décideurs.</p>
+<p>J’ai découvert ce langage lors de ma première année d’étude à IN’TECH SUD, alors que nous devions réaliser un site de notation de produits. Par la suite, j&rsquo;ai eu la chance de mettre cette compétence à contribution plusieurs fois en entreprise.</p>
+<p>Elle était l&rsquo;une des compétences les plus importantes quant à la réalisation du projet <a href="../../projets/transition-4.0">Transition 4.0</a></p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il est important de noter que SQL peut être complexe à maîtriser pour les utilisateurs débutants, en raison de la logique de requête souvent complexe et de la nécessité de comprendre les concepts de base de données relationnelles pour utiliser efficacement le langage. De plus, SQL n&rsquo;est pas toujours adapté pour certaines tâches de gestion de données, comme les traitements distribués ou les données à très grande échelle, qui nécessitent des technologies NoSQL.</p>
+<p>Il est également important de noter que SQL n&rsquo;est pas toujours sécurisé pour gérer certaines données sensibles, il est donc important de prendre en compte la sécurité et la confidentialité des données lors de l&rsquo;utilisation de SQL pour gérer les données de l&rsquo;entreprise.</p>
+<p>Il est donc important de considérer les besoins spécifiques de chaque projet avant de choisir une technologie de gestion de données particulière pour gérer les données de l&rsquo;entreprise.</p>
+<p>Travaillant depuis plus de deux ans dans ce domaine, je suis capable aujourd&rsquo;hui de trouver rapidement une information sur une base de données relationnelle comme MariaDB.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>SQL est un langage de programmation utilisé pour communiquer avec les systèmes de gestion de bases de données relationnelles (RDBMS) et permet aux utilisateurs de créer, lire, mettre à jour et supprimer des données dans les bases de données.</p>
+<p>Il est utilisé pour gérer les bases de données relationnelles et est un standard de l&rsquo;industrie utilisé par de nombreux systèmes de gestion de bases de données populaires. Il est utilisé pour accéder, manipuler et gérer les données stockées dans les bases de données relationnelles, et est utilisé dans de nombreux domaines pour gérer les données de différentes sources.</p>
+<p>Cependant, il peut être complexe à maîtriser pour les utilisateurs débutants, pas toujours adapté pour certaines tâches de gestion de données, et pas toujours sécurisé pour gérer certaines données sensibles</p>
+<p>Avec le temps, SQL prends moins de place dans mon utilisation quotidienne et professionnelle, cela est surtout dû à l'émergence de nouvelle type de base de données et outils pouvant traiter beaucoups plus vite des données à l&rsquo;instar des outils <a href="../qlik">Qlik</a></p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/transition-4.0"><kbd class="item-tag">TRANSITION 4.0</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

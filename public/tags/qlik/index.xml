@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QLIK on Mon Portfolio</title>
+    <link>http://127.0.0.1/tags/qlik/</link>
+    <description>Recent content in QLIK on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://127.0.0.1/tags/qlik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dashboard Appro</title>
+      <link>http://127.0.0.1/projets/dashboardappro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/projets/dashboardappro/</guid>
+      <description>Le projet Dashboard Apppro est le nom d&amp;rsquo;un projet BI (Business Intelligence) réaliser à BMS CIRCUITS, filiale du groupe ALL CIRCUITS  lors de mes deux années d&amp;rsquo;alternance, pour l&amp;rsquo;obtention de mon titre d&amp;rsquo;expert en ingénierie logicielle à IN&amp;rsquo;TECH-SUD.
+La business intelligence ou informatique décisionnelle présente un ensemble de techniques d&amp;rsquo;analyse de données massives et de présentation d&amp;rsquo;informations par des moyens de tableau de bord.
+Le projet fait partie de la suite de projets Supply Chain (chaîne d&amp;rsquo;approvisionnement) BI ALL CIRCUITS, il offre une suite d&amp;rsquo;indicateurs aux acheteurs et approvisionneurs du groupe, afin de les aider dans leurs tâches quotidiennes.</description>
+    </item>
+    
+  </channel>
+</rss>

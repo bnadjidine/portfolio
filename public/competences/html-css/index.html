@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5/CSS3</title>
+        
+            <link rel="icon" href="http://127.0.0.1/images/favicon/favicon-256x256.png">
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #EBEBEB;
+    }
+
+    :root {
+        --accent: #A91818;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/main.css">
+
+
+
+
+<link rel="stylesheet" href="http://127.0.0.1/css/custom.css"> 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body data-spy="scroll" data-target="#toc">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">HTML5/CSS3</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a class="header__link" href="/">Accueil</a></li>
+                            
+                                <li><a class="header__link" href="/projets/">Projets</a></li>
+                            
+                                <li><a class="header__link" href="/competences/">Compétences</a></li>
+                            
+                                <li><a class="header__link" href="/references/">Références</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:b.nadjidine@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+
+
+
+
+
+<section class="single-section-sm pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"> 
+                
+                
+                
+                <div class="sidebar">
+                    <div class="profile-img">
+                        <img src="http://127.0.0.1/images/moi.jpg" class="img-responsive" alt="Moi">
+                    </div>
+                    
+                    <h2><strong> Nadjidine B.</strong></h2>
+                    <h3 class="title_nb">Expert en ingénierie logiciel </h3>
+                    <hr>
+                    
+                    
+                    
+
+                    
+                    
+                    
+                
+                    <h2><strong> Compétences</strong></h2>
+                    <ul class="list-group">                             
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/communication/">Communication</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de projets</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/php/">PHP</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/python/">Python</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/sql/">SQL</a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a  href="http://127.0.0.1/competences/vba/">VBA</a>
+                        </li>
+                      
+                    </ul>
+
+                    
+
+                </div>
+        
+            </div>
+        
+            <div class="col-lg-7 col-md-7">
+
+                <main>
+
+                    <div>
+                        <h1>HTML5/CSS3</h1>
+                        <h5>HyperText Markup Language, généralement abrégé HTML est un langage de balisage souvent couplé avec du CSS (Cascading Style Sheets) pour créer des pages web.</h5>
+                        
+<a href="http://127.0.0.1/tags/mobilavenue"><kbd class="item-tag">MOBIL&#39;AVENUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                    </div>
+
+                    <div align="start" class="content toc-placement"><h2 id="ma-vision-du-html-et-css">Ma Vision du HTML et CSS</h2>
+<p>Le HyperText Markup Language, généralement abrégé HTML est un langage de balisage souvent couplé avec du CSS (Cascading Style Sheets) pour générer des pages web.</p>
+<ul>
+<li>le HTML pour structurer les pages web ;</li>
+<li>le CSS pour les mettre en forme.</li>
+</ul>
+<p>Le web étant la plus grosse source d&rsquo;informations dans le monde, il est important d&rsquo;avoir des bases solides sur ces deux technologies, surtout si on aspire à être chef de projet I.T.</p>
+<h2 id="contexte-dutilisation">Contexte d&rsquo;utilisation</h2>
+<p>HTML et CSS sont utilisés dans de nombreux contextes pour créer des sites web, voici quelques exemples :</p>
+<ul>
+<li>
+<p>Site web personnel : Les particuliers peuvent utiliser HTML et CSS pour créer leur propre site web personnel ou pour un blog, pour partager des informations, des photos, des vidéos, etc.</p>
+</li>
+<li>
+<p>Site web professionnel : Les entreprises et les organisations peuvent utiliser HTML et CSS pour créer un site web professionnel pour présenter leur entreprise, leurs produits et services, leur équipe, etc.</p>
+</li>
+<li>
+<p>Sites web e-commerce : Les sites web e-commerce utilisent HTML et CSS pour créer des pages web pour présenter les produits et les services en ligne, permettant aux utilisateurs de naviguer et de faire des achats en ligne.</p>
+</li>
+<li>
+<p>Sites web de contenu : Les sites web de contenu, comme les journaux en ligne, les magazines, les blogs, les forums, les réseaux sociaux, utilisent HTML et CSS pour présenter le contenu de manière attrayante et facile à utiliser.</p>
+</li>
+<li>
+<p>Applications web : Les développeurs utilisent HTML, CSS et JavaScript pour créer des applications web interactives, comme des jeux, des outils de productivité, des réseaux sociaux, etc.</p>
+</li>
+</ul>
+<p>Pour chaque projet web que j&rsquo;ai effectué, lors de mes projets d'école ou en entreprise, j&rsquo;ai eu recours à ces deux technologies.</p>
+<p>De la suite de mes projets présents sur ce portfolio, c&rsquo;est <a href="../../projets/mobilavenue">Mobil&rsquo;Avenue</a> qui en parle le mieux et évidemment ce portfolio.</p>
+<h2 id="regard-critique">Regard Critique</h2>
+<p>Il existe également des critiques à l&rsquo;utilisation de HTML et CSS :</p>
+<ul>
+<li>
+<p>Accessibilité : Les pages web créées uniquement avec HTML et CSS peuvent ne pas être accessibles aux utilisateurs ayant des besoins spécifiques, comme les utilisateurs de lecteurs d'écran, les utilisateurs de navigateurs alternatifs, etc.</p>
+</li>
+<li>
+<p>Responsive design : Il peut être difficile de créer des pages web qui s&rsquo;adaptent à différentes tailles d'écrans et résolutions avec seulement HTML et CSS, sans utiliser des frameworks ou des bibliothèques.</p>
+</li>
+<li>
+<p>Performances : Les pages web créées uniquement avec HTML et CSS peuvent être lentes à charger sur des réseaux lents ou sur des appareils mobiles, en raison de la quantité de contenu et de la complexité de la mise en page.</p>
+</li>
+<li>
+<p>Sécurité : les pages web créées uniquement avec HTML et CSS ne peuvent pas être protégées contre les attaques courantes, comme les injections SQL, les attaques XSS, etc. Il est nécessaire d&rsquo;utiliser des technologies de sécurité supplémentaires pour protéger les données sensibles.</p>
+</li>
+</ul>
+<p>Il est important de noter que ces critiques ne sont pas une généralité pour toutes les pages web créées avec HTML et CSS, mais il est important pour les développeurs de rester conscients de ces défis potentiels et de chercher des solutions pour les surmonter pour assurer une expérience utilisateur satisfaisante, une accessibilité et une sécurité adéquates.</p>
+<p>Ce sont des technologies faciles à prendre en main, cependant évoluent très vite, un peu à l&rsquo;image du web.
+Au vu de leur importance, il est donc important de s&rsquo;intéresser à l'évolution de ceux-ci même si on a pas de projets en lien direct avec ces deux technologies.</p>
+<p>Pour toute personne s&rsquo;intéressant au web, je lui recommande vivement ces deux incontournables.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>En conclusion, HTML et CSS sont des technologies fondamentales pour la création de sites web. HTML est utilisé pour structurer le contenu d&rsquo;une page web, tandis que CSS est utilisé pour définir la présentation visuelle. Ensemble, ils permettent de créer des pages web qui sont à la fois structurées et esthétiques, et qui peuvent être facilement modifiées et mises à jour.</p>
+<p>Cependant, il est important de rester conscient des défis potentiels de l&rsquo;utilisation de HTML et CSS, tels que l&rsquo;accessibilité, le responsive design, les performances et la sécurité, et de chercher des solutions pour les surmonter afin d&rsquo;assurer une expérience utilisateur satisfaisante, une accessibilité et une sécurité adéquates pour les utilisateurs.</p>
+<p>Ce qui m&rsquo;a le plus intéressé lorsque j&rsquo;ai découvert le web était la création de services pour les utilisateurs (backend). 
+Avec le temps, j&rsquo;ai compris qu&rsquo;une bonne gestion de projet web allie les deux et que les meilleures fonctionnalités sont souvent conçues avec une interface (froontend) bien penssante.</p>
+</div>
+                        
+<a href="http://127.0.0.1/tags/mobilavenue"><kbd class="item-tag">MOBIL&#39;AVENUE</kbd></a>
+
+<a href="http://127.0.0.1/tags/technique"><kbd class="item-tag">TECHNIQUE</kbd></a>
+
+
+                </main>
+
+            </div>
+            
+            <div class="col-lg-2 col-md-2">
+                <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="">
+            <div class="container-fluid resume-footer"> 
+
+                <div class="container pt-5">
+                    <div class="row text-left">
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES PROJETS</h5>
+                        
+                        <ul class="footer-list">                             
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/transition-4.0/">Transition 4.0</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/backlinks-seo/">Backlinks SEO</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/numericom/">Numéri'com</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/citi/">C'ITI</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/mobilavenue/">Mobil'Avenue</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="smooth-scroll" href="http://127.0.0.1/projets/dashboardappro/">Dashboard Appros</a>
+                              </li>
+                            
+                        </ul>
+                                        
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">ME CONTACTER</h5>
+                        
+
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="mailto:b.nadjidine@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a></div>
+                                
+                                    <div class="navbar-icon" style="font-size: 24px;"><a href="https://www.linkedin.com/in/nadjidine-b-834a65164/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></div>
+                                
+
+                        
+                       
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-12">
+                        
+                        <h5 class="resume-title">MES COMPETENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/autonomie/">Autonomie</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/communication/">Communication</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/html-css/">HTML5/CSS3</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/php/">PHP</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/r-and-d/">Recherche & Développement</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/gestion-de-projet/">Gestion de Projets</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/qlik/">Qlik</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/sql/">SQL</a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/competences/vba/">VBA</a>
+                            </li>
+
+                      </ul>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-12">
+                        <h5 class="resume-title">MES REFERENCES</h5>
+                        <ul class="footer-list">                             
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/CV_BOINALI_Nadjididine.pdf" target="_blank">Curriculum Vitæ</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="smooth-scroll" href="http://127.0.0.1/data/NadjidineBoinali-Certification_Cy-certificate.pdf" target="_blank">
+                                CISCO CCNA Cybersecurity Operations
+                              </a>
+                            </li>
+                      </div>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                     <p class="copyright text-center">
+                         © Janvier 2023 <a href="">Nadjidine BOINALI</a> - <a href="#">Mentions légales</a>.
+
+                     </p>
+                </div>
+            </div>
+           
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

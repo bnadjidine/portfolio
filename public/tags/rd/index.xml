@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R&amp;D on Mon Portfolio</title>
+    <link>http://127.0.0.1/tags/rd/</link>
+    <description>Recent content in R&amp;D on Mon Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+	<atom:link href="http://127.0.0.1/tags/rd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recherche de back linck</title>
+      <link>http://127.0.0.1/projets/backlinks-seo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1/projets/backlinks-seo/</guid>
+      <description>Le projet Le projet Backlinks SEO est un projet Recherche &amp;amp; Développement (Recherche et développement) réaliser lors de mon stage pour l&amp;rsquo;obtention de mon bachelor à Jechange.fr  entre août 2018 et février 2019. Jechange.fr est une scale-up française leader et pionnière dans le secteur de la gestion et l’optimisation des factures courantes,il incorpore aussi un service gratuit d&amp;rsquo;aide au déménagement.
+Le projet s&amp;rsquo;inscrivait dans une démarche d&amp;rsquo;amélioration continue du référencement web du site jechange.</description>
+    </item>
+    
+  </channel>
+</rss>
