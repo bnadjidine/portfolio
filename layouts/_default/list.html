@@ -18,7 +18,8 @@
                     <hr>
                     <!--Bloc projets only-->
                     {{ $url := urls.Parse .Permalink }}
-                    {{ if hasPrefix $url.Path "/projets"}}
+              
+                    {{ if strings.Contains $url "/projets"}}
                 
                     <h2><strong> Projets</strong></h2>
                     <ul class="list-group">                             
