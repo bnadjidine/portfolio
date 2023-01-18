@@ -2,7 +2,7 @@
 # baseURL = "http://127.0.0.1/"
 # baseURL = "https://b-nadji.com/"
 # nadji https://b-nadji.com/
-# baseURL = "https://bnadjidine.github.io"
+baseURL = "https://bnadjidine.github.io"
 languageCode = "fr-fr"
 title = "Mon Portfolio"
 disqusShortname = "username" # delete this to disable disqus comments
