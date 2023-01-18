@@ -139,7 +139,7 @@ La journée c’était bien déroulé, nous avions pu faire face à tous les imp
 
 Certains points restes à améliorer au niveau de l’organisation. Peut-être que nous aurions pu, soit travailler sur la communication et l’organisation du NUMERIC’DAY, soit communication et la mise en place d’une animation et non les deux à la fois qui représentaient un challenge considérable pour les quatre binômes que composaient l'équipe.
 
-Ce projet m'a permis de voir comment le monde de l'événementiel fonctionne et en même temps, il m'a permis d'améliorer mes compétences en communication acquissent au projet <a href="../projets/citi/"> C'ITI</a>.
+Ce projet m'a permis de voir comment le monde de l'événementiel fonctionne et en même temps, il m'a permis d'améliorer mes compétences en communication acquissent au projet <a href="../citi/"> C'ITI</a>.
 
 Grâce au salon, j'ai décroché un stage à <a href="https://greenglade.fr/" target="_blank"> Greenglade Pau</a>, en tant que développeur PHP entre février et mars 2017.  
 
